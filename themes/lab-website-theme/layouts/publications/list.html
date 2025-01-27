@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <main class="publications">
+        <p>{{ .Content }}</p>
+        {{ $titles := dict 
+            "1-preprint" "Preprints"
+            "2-published" "Published Manuscripts"
+            "3-chapter" "Book Chapters"
+        }}
+        {{ range .Pages.GroupByParam "status" }}
+            <h3>{{ index $titles .Key }}</h3>
+            {{ range .Pages }}
+                <div class="publication">
+                    {{ .Content }}
+                    <a href="{{ .Params.link }}" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    {{ with .Params.pdf }}
+                        <a href="/pdfs/{{ . }}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+                    {{ end }}
+                </div>
+            {{ end }}
+        {{ end }}
+    </main>
+{{ end }}

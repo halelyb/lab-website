@@ -1,0 +1,35 @@
+{{ define "main" }}
+<main class="people">
+    {{ $titles := dict 
+        "pi" "Principal Investigator"
+        "phd" "PhD Students"
+        "ma" "MA Students"
+        "ra" "Research Assistans"
+    }}
+    <div class="people-list">
+        {{ range .Pages.GroupByParam "role" }}
+            <section id="{{ .Key | title }}">
+                <div>
+                    {{ $sectionTitle := .Key }}
+                    {{ $sectionTitle = replaceRE `[0-9]*-` "" $sectionTitle }}
+                    <h3>{{ index $titles $sectionTitle }}</h3>
+                </div>
+                {{ range .Pages }}
+                <div class="person">
+                    <div class="image">
+                        <a href="https://unsplash.com/photos/aCZ2hiC-iDk" class="thumbnail">
+                        {{ $img := .Params.image | default "lego.png" }}
+                        <img src='/images/{{ $img }}' alt="Joe Smith"/>
+                        </a>
+                    </div>
+                    <div class="text">
+                        <h4>{{ .Title }}</h4>
+                        <span>{{ .Content }}</span>
+                    </div>
+                </div>
+                {{ end }}
+            </section>
+        {{ end }}
+    </div>
+</main>
+{{ end }}

@@ -1,0 +1,48 @@
+html {
+    font: 1.1rem "Fira Sans", sans-serif;
+}
+a {
+    color: #2D8E6A;
+}
+img {
+    max-width: -webkit-fill-available;
+}
+.navbar {
+    a {
+        text-decoration: none;
+    }
+    li.active {
+        background-color: #07472F;
+    }
+}
+main.homepage {
+    text-align: center;
+}
+.people {
+    section {
+        margin-bottom: 50px;
+        .person {
+            margin-bottom: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            img {
+                border-radius: 50%;
+                height: 150px;
+                width: 150px;
+                max-width: 150px;
+            }
+            .text {
+                margin: 0px 20px;
+                width: 600px;
+            }
+        }
+    }
+}
+.publications {
+    .publication {
+        margin: 1em 0px;
+        p {
+            display: inline;
+        }
+    }
+}
