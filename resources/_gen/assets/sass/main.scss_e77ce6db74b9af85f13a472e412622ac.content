@@ -2,34 +2,43 @@ html {
   font: 1.1rem "Fira Sans", sans-serif; }
 
 a {
-  color: #2D8E6A; }
+  color: #823BA1; }
 
 img {
   max-width: -webkit-fill-available; }
+
+main {
+  margin-top: 50px; }
 
 .navbar a {
   text-decoration: none; }
 
 .navbar li.active {
-  background-color: #07472F; }
+  background-color: #33243E; }
 
 main.homepage {
   text-align: center; }
 
 .people section {
-  margin-bottom: 50px; }
+  margin-bottom: 70px; }
   .people section .person {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     display: flex;
-    flex-wrap: wrap; }
-    .people section .person img {
-      border-radius: 50%;
-      height: 150px;
-      width: 150px;
-      max-width: 150px; }
+    flex-wrap: wrap;
+    align-items: center; }
+    .people section .person .image {
+      align-self: flex-start; }
+      .people section .person .image img {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        max-width: 150px; }
     .people section .person .text {
-      margin: 0px 20px;
-      width: 600px; }
+      margin: 0px;
+      margin-left: 20px;
+      width: 800px; }
+      .people section .person .text h4 {
+        margin: 0px; }
 
 .publications .publication {
   margin: 1em 0px; }

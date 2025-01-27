@@ -4,18 +4,18 @@ title = 'My New Hugo Site'
 theme = 'lab-website-theme'
 [menus]
   [[menus.main]]
-    name = 'Home'
+    name = 'HOME'
     pageRef = '/'
     weight = 10
   [[menus.main]]
-    name = 'People'
+    name = 'PEOPLE'
     pageRef = '/people'
     weight = 20
   [[menus.main]]
-    name = 'Publications'
+    name = 'PUBLICATIONS'
     pageRef = '/publications'
     weight = 30
   [[menus.main]]
-    name = 'Contact'
+    name = 'CONTACT'
     pageRef = '/contact'
     weight = 40

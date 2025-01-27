@@ -7,12 +7,12 @@
        <div class="navbar-inner">
           <div class="container">
              <ul class="nav">
-               {{ $currentPage := . }}
-               {{ range site.Menus.main }}
-                  {{ if $currentPage.IsMenuCurrent .Menu . }}
+                {{ $currentPage := . }}
+                {{ range site.Menus.main }}
+                  {{ if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)  }}
                      <li class="active">
                   {{ else }}
-                        <li>
+                     <li>
                   {{ end }}
                      <a href="{{ .URL }}">
                         {{ .Name }}

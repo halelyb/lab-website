@@ -4,7 +4,7 @@ draft = false
 title = 'Ofir Bakish'
 first = 'ofir'
 last = 'bakish'
-email = "halelyb at openu dot ac dot il"
+email = "ofir27394 at gmail dot com"
 role = '3-ma'
 image = 'ofir.png'
 +++
