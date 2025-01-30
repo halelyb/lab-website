@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cda-lab.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Halely Balaban | The CDA Lab'
 theme = 'lab-website-theme'
 [menus]
   [[menus.main]]
