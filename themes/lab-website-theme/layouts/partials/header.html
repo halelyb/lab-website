@@ -15,12 +15,16 @@
                      <li>
                   {{ end }}
                      <a href="{{ .URL }}">
-                        {{ .Name }}
+                        <i class="fa-solid fa-{{ .Pre }}"></i>
+                        <span class="name">{{ .Name }}</span>
                      </a>
                   </li>
-               {{ end }}
-             </ul>
-          </div>
-       </div>
-    </div>
- </div>
+                  {{ end }}
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   {{ if not .IsHome }}
+      <h2 class="mobile-title">{{ .Name }}</h2>
+   {{ end }}

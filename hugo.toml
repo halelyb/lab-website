@@ -5,17 +5,21 @@ theme = 'lab-website-theme'
 [menus]
   [[menus.main]]
     name = 'HOME'
+    pre = 'house'
     pageRef = '/'
     weight = 10
   [[menus.main]]
     name = 'PEOPLE'
+    pre = 'users'
     pageRef = '/people'
     weight = 20
   [[menus.main]]
     name = 'PUBLICATIONS'
+    pre = 'book'
     pageRef = '/publications'
     weight = 30
   [[menus.main]]
     name = 'CONTACT'
+    pre = 'envelope'
     pageRef = '/contact'
     weight = 40
