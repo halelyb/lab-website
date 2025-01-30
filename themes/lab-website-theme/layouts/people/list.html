@@ -18,7 +18,7 @@
                 <div class="person">
                     <div class="image">
                         {{ $img := .Params.image | default "lego.png" }}
-                        <img src='/images/{{ $img }}' alt="Joe Smith"/>
+                        <img src='/images/{{ $img }}' alt="{{ .Title }}"/>
                     </div>
                     <div class="text">
                         <h4>{{ .Title }}</h4>
