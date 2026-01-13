@@ -1,5 +1,5 @@
 +++
-date = '2026-01-17T16:02:27+02:00'
+date = '2026-01-12T16:02:27+02:00'
 draft = false
 title = 'Stav Sela'
 first = 'stav'
