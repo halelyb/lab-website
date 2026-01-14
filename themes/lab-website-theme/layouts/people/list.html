@@ -14,7 +14,7 @@
                     {{ $sectionTitle = replaceRE `[0-9]*-` "" $sectionTitle }}
                     <h3>{{ index $titles $sectionTitle }}</h3>
                 </div>
-                {{ range .Pages }}
+                {{ range .Pages.ByParam "last" }}
                 <div class="person">
                     <div class="image">
                         {{ $img := .Params.image | default "lego.png" }}
