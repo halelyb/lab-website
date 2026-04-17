@@ -5,7 +5,7 @@ title = 'Naama Or Kalinin'
 first = 'naama or'
 last = 'kalinin'
 email = "nummyor at gmail dot com"
-role = '4-ra'
+role = '5-alum'
 image = 'naama.jpeg'
 +++
-Naama is an undergraduate Psychology student at the Open University and a Research Assistant in the Psychology Research Lab. She is interested in understanding how physical environmental changes influence cognitive mechanisms and belief systems, particularly in therapeutic contexts.
+Naama was a Research Assistant in the lab from 2024 to 2025, working on behavioral and EEG projects.
