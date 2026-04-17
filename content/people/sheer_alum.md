@@ -8,4 +8,4 @@ email = "sheer22 at gmail dot com"
 role = '5-alum'
 image = 'sheer.jpeg'
 +++
-Sheer is a former Cognitive Psychology MA student at the Open University. Her research focused on temporal characterization of the resetting process in visual working memory.
+Sheer is a former MA student at the lab. She received her degree in Cognitive Psychology from the Open University. Sheer's research focused on temporal characterization of the resetting process in visual working memory.
