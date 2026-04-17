@@ -5,7 +5,7 @@ title = 'Sheer Formoze'
 first = 'sheer'
 last = 'formoze'
 email = "sheer22 at gmail dot com"
-role = '3-ma'
+role = '5-alum'
 image = 'sheer.jpeg'
 +++
-Sheer is a Cognitive Psychology MA student at the Open University. Her research aims to temporally characterize the resetting process in visual working memory.
+Sheer is a former MA student at the lab. She received her degree in Cognitive Psychology from the Open University in 2026. Sheer's research focused on temporal characterization of the resetting process in visual working memory.
