@@ -5,7 +5,7 @@ title = 'Shachar Lando'
 first = 'shachar'
 last = 'lando'
 email = "shacharlando at mail dot tau dot ac dot il"
-role = '2-phd'
+role = '3-phd'
 image = 'shachar.jpeg'
 +++
 Shachar is a Psychology PhD student at Tel Aviv University co-advised by [Roy Luria](https://people.socsci.tau.ac.il/mu/royluria/). She is interested in representations in working memory, and in particular how perceptual changes and physical knowledge shape them.
